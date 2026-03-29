@@ -86,5 +86,7 @@ The analysis aims to generate actionable insights that will:
 
 The dashboard presents a comprehensive view of Vertex Electronics' 2025 sales performance, highlighting revenue trends, product performance, regional insights, and the impact of discounts on profitability. It illustrates how order size influences revenue and identifies patterns that can guide pricing and product strategy decisions for 2026.
 
+![Dashboard Preview](https://github.com/JonathanHappiness/Evaluating-Annual-Sales-Performance-and-Revenue-Drivers-for-Vertex-Electronics/blob/main/Sales_Dashboard.png?raw=true)
+
 
 *Analysis by Jonathan | 2025 Vertex Electronics Sales Performance Project*
