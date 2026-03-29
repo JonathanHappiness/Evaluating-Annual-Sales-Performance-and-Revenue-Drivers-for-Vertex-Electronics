@@ -88,5 +88,7 @@ The dashboard presents a comprehensive view of Vertex Electronics' 2025 sales pe
 
 ![Dashboard Preview](https://github.com/JonathanHappiness/Evaluating-Annual-Sales-Performance-and-Revenue-Drivers-for-Vertex-Electronics/blob/main/Sales_Dashboard.png?raw=true)
 
+📊 [Click here to interact with the Dashboard](https://1drv.ms/x/c/c0a6ca2a1ad92f49/IQAUQqqozePaS4rk8geNNLY4AbdqdtETppQ5whS3c5psptg)
+
 
 *Analysis by Jonathan | 2025 Vertex Electronics Sales Performance Project*
