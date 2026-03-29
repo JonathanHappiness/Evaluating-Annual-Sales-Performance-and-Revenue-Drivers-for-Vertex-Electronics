@@ -1,0 +1,64 @@
+﻿SQL Queries
+
+
+SELECT *
+FROM sales_furniture
+LIMIT 10;
+
+
+--------Top 10 products--------
+
+
+SELECT product_name,
+SUM(revenue_after_discount) AS total_sales
+FROM sales_furniture
+GROUP BY product_name
+ORDER BY total_sales DESC;
+
+
+--------Time Series-------
+
+
+SELECT month_name,
+SUM(revenue_after_discount) AS total_sales
+FROM sales_furniture
+GROUP BY month_name
+ORDER BY total_sales desc;
+
+
+-------Regional Insight----
+SELECT region,
+        SUM(revenue_after_discount) AS total_sales
+FROM sales_furniture
+GROUP BY region
+ORDER BY total_sales desc;
+
+
+—----Top Selling Product Category------
+
+
+SELECT product_category,
+SUM(revenue_after_discount) AS total_revenue
+FROM sales_furniture
+GROUP BY product_category
+ORDER BY total_sales desc;
+
+
+--------most frequently purchased goods-------
+
+
+SELECT product_name,
+        COUNT(*) AS no_of_purchase
+FROM sales_furniture
+GROUP BY product_name
+ORDER BY no_of_purchase DESC;
+
+
+---------Quantity vs Revenue--------------
+
+
+SELECT quantity,
+SUM(revenue_after_discount) AS total_revenue
+FROM sales_furniture
+GROUP BY quantity
+ORDER BY quantity;
